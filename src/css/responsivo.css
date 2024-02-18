@@ -30,7 +30,7 @@ cabecalho .menu .sup2{
     }
 
     .cabecalho .menu{
-        align-items: center;
+        align-items: center
         
     }
 
@@ -47,10 +47,36 @@ cabecalho .menu .sup2{
         align-items: center;
     }
 
-    .cabecalho .logo .title{
-        text-align: center;
-        font-size: larger;
+    .cabecalho .logo .fod{
+        flex-direction: column;
+
+    
     }
 
-    .cabecalho .menu{align-items: center;}
+    .cabecalho .logo .title{
+        align-items: baseline;
+        font-size: medium;
+    }
+
+    .cabecalho .menu{
+        align-items: center;
+
+    } 
+}
+
+@media (max-width: 400px) {
+    .cabecalho{
+        align-items: center;
+    
+    }
+
+    .cabecalho .logo .icon{
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .cabecalho .menu{
+        align-items: center;
+        font-size: small;
+    }
 }
