@@ -42,3 +42,10 @@ border-radius: 5px;
     cursor: pointer;
     border-radius: 5px;
 }
+
+.ff{
+    flex-direction: column;
+    align-items: center;
+    font-family: mineplayer;
+    font-size: x-large;
+}
